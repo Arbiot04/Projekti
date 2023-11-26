@@ -1,0 +1,101 @@
+.Photos{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px; 
+    
+}
+
+  .foto {
+      border:1px solid black;
+      padding: 10px;
+      margin-right: auto;
+    
+   
+  }
+
+  .Xhaketa {
+    text-align: center;
+  }
+
+  header{
+    text-align: end;
+    background-color: #333;
+    font-size: large;
+    margin: 10px;
+    padding: 15px;
+
+}
+header a{
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+}
+header input[type="button"] {
+    margin-left: 10px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    width: 170px;
+
+} 
+footer{
+    margin-top: 20px;
+    text-align: center;
+    margin: 6px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+form {
+    margin: 10px;
+    padding: 10px;
+    background-color: salmon;
+    border-radius: 10px;
+    color: white;
+}
+section {
+    margin-top: 20px;
+}
+
+.foto {
+  
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.price {
+    color: green; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    
+}
